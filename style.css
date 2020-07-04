@@ -7,8 +7,39 @@ body {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 2em;
-*/
+
   }
+
+.header-container {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+*/
+
+.hero-image {
+    background-image: url(https://images.pexels.com/photos/1331821/cat-eyes-angry-suspicious-1331821.jpeg); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    z-index: -1;
+  }
+
+  /*
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+
 
 .header-image {
     width: 100%;
@@ -18,18 +49,44 @@ body {
     z-index: -1;
     opacity: 50%;
 }
+*/
+
+.header-container-image {
+    vertical-align: center;
+    width: 100%;
+    z-index: -1;
+}
 
 h1 {
+    text-align: center;
     font-family: Raleway;
-    color: white;
-    height: 3em;
+    color: blue;
+    font-size: 4em;
     font-weight: bold;
-    background-color: blue;
+    /*background-color: blue;*/
     margin-bottom: 2em;
 }
 
+h2 {
+    font-family: Raleway;
+    color: blue;
+    height: 3em;
+    font-weight: bold;
+    /*background-color: blue;*/
+    margin-bottom: 2em;
+}
+
+h3 {
+    font-family: Raleway;
+    color: blue;
+    height: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+
 p {
-    font-family: Open-Sans;
+    font-family: 'Open Sans';
 }
   .callout {
     padding: 1em;
