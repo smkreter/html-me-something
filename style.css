@@ -79,12 +79,18 @@ body {
 }
 
 
-.nav-li {
+#nav-li {
   font-family: Raleway;
   display:inline;
   text-transform: uppercase;
 }
 
+#center-title {
+  font-family: Shrikhand;
+  font-size: 1.5em;
+  float: center;
+  display: block;
+}
 
 header {
   padding-top: 20%;
