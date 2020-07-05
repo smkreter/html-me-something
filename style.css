@@ -6,6 +6,8 @@ body {
     outline: 0;
 }
 
+
+/*
 #nav-container {
   /*margin-top: 1vh;
   margin-bottom: 1vh;
@@ -14,10 +16,10 @@ body {
   padding-bottom: 1vh;
   padding-left: 3vh;
   padding-right: 3vh;
-  */
+  
   height: 6vh;
   /*border: 2vh 2vw;
-  border-color: yellow;*/
+  border-color: yellow;
   z-index: 200;
   background-color: yellow;
   width: 100vw;
@@ -41,11 +43,48 @@ body {
   text-align: center;
   vertical-align: center;
   width: 100vw;
-  /*margin-left: 5vw;*/
+  /*margin-left: 5vw;
   font-family: Raleway;
   font-size: 2em;
   color: blue;
 }
+*/
+
+.topnav {
+  background-color: yellow;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: orangered;
+  color: white;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: orangered;
+  color: white;
+}
+
+
+.nav-li {
+  font-family: Raleway;
+  display:inline;
+  text-transform: uppercase;
+}
+
 
 header {
   padding-top: 20%;
