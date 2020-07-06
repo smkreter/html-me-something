@@ -54,6 +54,9 @@ body {
   background-color: yellow;
   overflow: hidden;
   z-index: -1;
+  padding:top: 3vh;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* Style the links inside the navigation bar */
@@ -62,7 +65,10 @@ body {
   display: block;
   color: blue;
   text-align: center;
-  padding: 1em 1em;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
   text-decoration: none;
   font-size: 1em;
 }
@@ -73,26 +79,28 @@ body {
   color: white;
 }
 
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  background-color: orangered;
-  color: white;
-}
-
-
 #nav-li {
   font-family: Raleway;
+  font-weight: bold;
   display:inline;
   text-transform: uppercase;
 }
 
 #center-title {
   width: 100vw;
-  font-family: Shrikhand;
-  font-size: 1.5em;
-  margin: auto;
+  font-family: 'Suez One', serif;
+  font-size: 2em;
+  text-align: center;
   display: block;
+  background-color: yellow;
   z-index: 1;
+  padding-top: -1em;
+  padding-bottom: 1em;
+}
+
+#center-title a:hover {
+  background-color: orangered;
+  color: white;
 }
 
 header {
@@ -189,15 +197,16 @@ a:hover {
   animation-delay: 2ms;
 }
 
-  .callout {
-    padding: 1em;
-    text-align: center;
-    background-color: skyblue;
-  }
+
+
+#center-div {
+  align: center;
+}
   
   .button {
     background-color: orangered;
     font-family: Raleway;
+    font-weight: bold;
     text-transform: uppercase;
     color: white;
     padding: 15px 32px;
@@ -209,6 +218,19 @@ a:hover {
   .button:hover {
     background-color: yellow;
     color: blue;
+  }
+
+  .button a {
+    font-family: inherit;
+    font-weight: inherit;
+    text-transform: inherit;
+    color: inherit;
+    text-align: inherit;
+  }
+  
+  .button a:hover {
+    background-color: inherit;
+    color: inherit;
   }
   
   .list-illo {
@@ -226,4 +248,6 @@ a:hover {
   #footer-text {
     margin-left: 20%;
     margin-right: 20%;
+    color: orangered;
+    font-size: 0.75em;
   }
