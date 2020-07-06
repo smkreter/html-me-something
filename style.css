@@ -53,6 +53,7 @@ body {
 .topnav {
   background-color: yellow;
   overflow: hidden;
+  z-index: -1;
 }
 
 /* Style the links inside the navigation bar */
@@ -86,10 +87,12 @@ body {
 }
 
 #center-title {
+  width: 100vw;
   font-family: Shrikhand;
   font-size: 1.5em;
-  float: center;
+  margin: auto;
   display: block;
+  z-index: 1;
 }
 
 header {
