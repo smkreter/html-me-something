@@ -109,8 +109,8 @@ header {
   width: 100vw;
 }
 
-
-.better__header { /*straight-up stolen from buzzfeed for reference*/
+/*
+.better__header { /*straight-up stolen from buzzfeed for reference
   width: 100vw;
   height: 600vh;
   position: relative;
@@ -123,6 +123,7 @@ header {
   clear: both;
   display: block;
 }
+*/
 
 .main-content {
   background-color: white;
@@ -183,6 +184,12 @@ ol {
 li {
   margin-bottom: 2em;
 }
+
+article {
+  font-family: 'Open Sans';
+  padding-bottom: 1em;
+}
+
 
 p {
     font-family: 'Open Sans';
