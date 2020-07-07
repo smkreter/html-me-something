@@ -6,50 +6,6 @@ body {
     outline: 0;
 }
 
-
-/*
-#nav-container {
-  /*margin-top: 1vh;
-  margin-bottom: 1vh;
-  /*
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  padding-left: 3vh;
-  padding-right: 3vh;
-  
-  height: 6vh;
-  /*border: 2vh 2vw;
-  border-color: yellow;
-  z-index: 200;
-  background-color: yellow;
-  width: 100vw;
-}
-
-#center {
-  align-content: center;
-}
-
-
-.nav-li {
-  font-family: Raleway;
-  display:inline;
-  float: right;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  text-transform: uppercase;
-}
-
-#site-title {
-  text-align: center;
-  vertical-align: center;
-  width: 100vw;
-  /*margin-left: 5vw;
-  font-family: Raleway;
-  font-size: 2em;
-  color: blue;
-}
-*/
-
 .topnav {
   background-color: yellow;
   overflow: hidden;
@@ -108,22 +64,6 @@ header {
   padding-bottom: 4em;
   width: 100vw;
 }
-
-/*
-.better__header { /*straight-up stolen from buzzfeed for reference
-  width: 100vw;
-  height: 600vh;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  margin-top: 0;
-  top: 0;
-  clear: both;
-  display: block;
-}
-*/
 
 .main-content {
   background-color: white;
